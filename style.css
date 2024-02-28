@@ -32,7 +32,7 @@ html {
 
 }
 
-body {
+.header {
     background-image: url('images/img6.png');
     background-size: cover; 
     background-repeat: no-repeat;
@@ -124,4 +124,89 @@ section {
     margin: 5px;
     margin-top: 20px;
     margin-left: -2px;
+}
+
+/* About */
+about {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 3rem 15%;
+}
+
+.about-content img {
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Services */
+
+services {
+    background: var(--bg-color);
+}
+
+.main-text h1 {
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.box {
+    background: #fff;
+    padding: 35px 45px;
+    border-radius: 4rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all .45s ease;
+}
+
+.s-icons i {
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #00faa8;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.9rem;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
 }
