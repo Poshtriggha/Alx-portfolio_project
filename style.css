@@ -282,3 +282,63 @@ services {
     align-items: center;
 }
 
+/* Conatact */
+
+contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin-top: -30rem;
+}
+
+.sign { 
+    text-align: center;
+}
+
+.sign h3 {
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 500;
+    margin-top: -7rem;
+}
+
+.sign h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.sign p {
+    text-align: center;
+    font-size: 0.3rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.button-3 {
+    display: inline-block;
+    padding: 1rem 16rem;
+    border-radius: 4rem; 
+    background-color: none; 
+    color: #CCCCCC; 
+    text-decoration: none; 
+    margin-top: 1.5rem;
+    border: 0.1rem solid #000;
+    Display: inline-flex;
+    align-items: center;
+}
+
+.button-4 {
+    display: inline-block;
+    padding: 1rem 4rem;
+    border-radius: 4rem; 
+    background-color: #000000;
+    color: var(--bg-color); 
+    text-decoration: none; 
+    margin-top: 1.5rem;
+}
+
+
+
