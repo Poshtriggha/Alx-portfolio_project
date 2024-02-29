@@ -139,12 +139,14 @@ about {
     text-align: center;
     font-size: 3.7rem;
     font-weight: 500;
+    margin-top: -8rem;
 }
 
 .about-content p {
     font-size: 1.6rem;
     text-align: center;
     padding: 3rem 15%;
+    margin-top: -2rem;
 }
 
 .about-content img {
@@ -163,6 +165,7 @@ services {
     text-align: center;
     font-size: 3.7rem;
     font-weight: 500;
+    margin-top: -7rem;
 }
 
 .services-content {
@@ -210,3 +213,49 @@ services {
     transform: translateY(-8px);
     cursor: pointer;
 }
+
+/* Carousel Section */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    margin-top: -20rem;
+}
+
+.carousel-box {
+    background: #fff;
+    padding: 35px 45px;
+    border-radius: 4rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all .45s ease;
+    margin-top: -7rem;
+    background-color: #0C5300;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+
+    
+}
+.slider p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.carousel-image img {
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
