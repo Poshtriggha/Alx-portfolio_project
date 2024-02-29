@@ -340,5 +340,21 @@ contact {
     margin-top: 1.5rem;
 }
 
+.footer {
+    background-color: #0C5300;
+    height: 30px;
+    margin-top: -30rem;
+}
 
+
+.footer-img {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    font-weight: 600;
+    cursor: default;
+    width: 100px; 
+    height: auto;
+    margin-top: -5rem;
+    border: 1rem 0 0 0;
+}
 
