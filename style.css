@@ -38,10 +38,8 @@ html {
     background-repeat: no-repeat;
 }
 
-section {
-    min-height: 100vh;
+section { 
     padding: 10rem 9% 2rem;
-
 }
 
 .header {
@@ -92,6 +90,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .home-img img {
@@ -133,6 +132,7 @@ about {
     gap: 1rem;
     background: #fff;
     padding: 2rem 9%;
+    min-height: 100vh;
 }
 
 .heading {
@@ -159,6 +159,7 @@ about {
 
 services {
     background: var(--bg-color);
+    min-height: 100vh;
 }
 
 .main-text h1 {
@@ -220,7 +221,7 @@ services {
     justify-content: center;
     align-items: center;
     min-height: 20vh;
-    margin-top: -20rem;
+    margin-top: -1rem;
 }
 
 .carousel-box {
@@ -282,14 +283,13 @@ services {
     align-items: center;
 }
 
-/* Conatact */
+/* Contact */
 
 contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
-    margin-top: -30rem;
+    min-height: 30vh;
 }
 
 .sign { 
@@ -341,20 +341,39 @@ contact {
 }
 
 .footer {
-    background-color: #0C5300;
-    height: 30px;
-    margin-top: -30rem;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 9% 2rem;
 }
 
 
 .footer-img {
     font-size: 2.5rem;
-    color: var(--main-color);
-    font-weight: 600;
     cursor: default;
-    width: 100px; 
+    width: 3rem;
     height: auto;
     margin-top: -5rem;
     border: 1rem 0 0 0;
 }
 
+.footer-arrange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5rem;
+}
+
+.copyright {
+    margin-top: -5rem;
+}
+
+.bx {
+    margin-top: -5rem;
+
+}
