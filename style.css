@@ -348,13 +348,14 @@ contact {
 }
 
 
-.footer-img {
+.footer-img a {
     font-size: 2.5rem;
     cursor: default;
-    width: 3rem;
+    width: 2rem;
     height: auto;
     margin-top: -5rem;
     border: 1rem 0 0 0;
+    margin: 3rem 1.5rem 3rem 0;
 }
 
 .footer-arrange {
@@ -363,17 +364,25 @@ contact {
     align-items: center;
 }
 
-.privacy {
+.privacy p {
     display: flex;
-    justify-content: space-between;
     margin-top: -5rem;
+    display: inline-flex;
+    margin: 3rem 1.5rem 3rem 0;
+    text-decoration: underline;
 }
 
-.copyright {
-    margin-top: -5rem;
+.copyright p {
+    display: inline-flex;
 }
 
-.bx {
+.bx i {
     margin-top: -5rem;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    color: #000;
+    margin: 3rem 1.5rem 3rem 0;
 
 }
